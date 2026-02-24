@@ -1,0 +1,4 @@
+python 3.14.3
+pandas 3.0.1
+re
+unicodedata
