@@ -1,0 +1,10 @@
+{"statement_1": "Привіт іще раз.", "statement_2": "Таксі подано.", "phenomenon": "semantic mismatch / greeting vs notification", "issue": "Model predicts not same; no lexical overlap"}
+{"statement_1": "У Тома дивне почуття гумору.", "statement_2": "Том має дивне почуття гумору.", "phenomenon": "proper name / syntactic variation", "issue": "PROPN vs NOUN tagging inconsistency"}
+{"statement_1": "Яка їжа є у вас?", "statement_2": "Що в вас є поїсти?", "phenomenon": "paraphrase / syntactic variation", "issue": "Different surface structure, same meaning"}
+{"statement_1": "Я послухав 10 найкращих пісень вісімдесятих років.", "statement_2": "Я послухав топ 10 найкращих пісень вісімдесятих.", "phenomenon": "lexical variation (топ)", "issue": "Extra token changes TF-IDF weights"}
+{"statement_1": "У мене є кіт.", "statement_2": "Я маю кота.", "phenomenon": "possessive construction variation", "issue": "Different syntactic pattern, same semantics"}
+{"statement_1": "Вона водій таксі?", "statement_2": "Привіт, як ся маєш?", "phenomenon": "clear semantic difference", "issue": "Model confusion due to dataset noise"}
+{"statement_1": "Бога немає.", "statement_2": "Бога не існує.", "phenomenon": "synonymous negation", "issue": "Different verbs, same meaning"}
+{"statement_1": "Він зробив фотографію родини.", "statement_2": "Я вивчаю в'єтнамську мову.", "phenomenon": "apostrophe / unrelated meaning", "issue": "No lexical overlap"}
+{"statement_1": "Чому ти це зробив?", "statement_2": "Нащо ти це зробив?", "phenomenon": "synonymous adverbs", "issue": "Different tokens, identical meaning"}
+{"statement_1": "Я не заперечую.", "statement_2": "Я не проти.", "phenomenon": "lexical paraphrase", "issue": "Verb vs prepositional construction"}
