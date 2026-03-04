@@ -1,4 +1,8 @@
 python 3.14.3
 pandas 3.0.1
 re
+
 unicodedata
+
+stanza 1.11.0
+scikit-learn 1.8.0
