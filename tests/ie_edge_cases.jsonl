@@ -1,0 +1,10 @@
+{"id": "fp_0", "raw_text": "Том плакатиме. Том буде плакати.", "field_type": "PERSON", "expected_behavior": "should NOT be detected as PERSON (false positive)"}
+{"id": "fp_1", "raw_text": "Я вивчаю ісландську мову. Мері подобається Тому.", "field_type": "PERSON", "expected_behavior": "should NOT be detected as PERSON (false positive)"}
+{"id": "fp_2", "raw_text": "У Тома брат та сестра. Том має брата і сестру.", "field_type": "PERSON", "expected_behavior": "should NOT be detected as PERSON (false positive)"}
+{"id": "fp_3", "raw_text": "Том сів поруч із Мері. Том сів біля Мері.", "field_type": "PERSON", "expected_behavior": "should NOT be detected as PERSON (false positive)"}
+{"id": "fp_4", "raw_text": "Том їсть рибу як мінімум раз на тиждень. Том їсть рибу принаймні раз на тиждень.", "field_type": "PERSON", "expected_behavior": "should NOT be detected as PERSON (false positive)"}
+{"id": "fp_5", "raw_text": "Скільки у Тома гітар? Скільки Том має гітар?", "field_type": "PERSON", "expected_behavior": "should NOT be detected as PERSON (false positive)"}
+{"id": "fp_6", "raw_text": "Том був сміливий. Том був хоробрий.", "field_type": "PERSON", "expected_behavior": "should NOT be detected as PERSON (false positive)"}
+{"id": "fp_7", "raw_text": "Том не бреше. Том має дві черепахи.", "field_type": "PERSON", "expected_behavior": "should NOT be detected as PERSON (false positive)"}
+{"id": "fp_8", "raw_text": "Том був сміливий. Том був відважний.", "field_type": "PERSON", "expected_behavior": "should NOT be detected as PERSON (false positive)"}
+{"id": "fp_9", "raw_text": "Том - мій кузен. Том - мій двоюрідний брат.", "field_type": "PERSON", "expected_behavior": "should NOT be detected as PERSON (false positive)"}
